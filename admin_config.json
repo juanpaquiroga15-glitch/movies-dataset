@@ -1,0 +1,42 @@
+{
+  "zones": {
+    "California": "Costa Oeste",
+    "Texas": "Zona Central",
+    "Florida": "Costa Este",
+    "New York": "Costa Este",
+    "Puerto Rico": "Puerto Rico"
+  },
+  "horarios": {
+    "Costa Oeste": "6 AM - 2 PM",
+    "Zona Central": "7 AM - 4 PM",
+    "Costa Este": "9 AM - 5 PM",
+    "Puerto Rico": "10 AM - 5 PM"
+  },
+  "porcentaje_default": 0.06,
+  "follow_up_status": [
+    "Interested",
+    "Pending call",
+    "Follow-up",
+    "Closed sale",
+    "No answer",
+    "Not qualified"
+  ],
+  "permission_matrix": {
+    "register_sales": {
+      "advisor": true,
+      "admin": true
+    },
+    "delete_users": {
+      "advisor": false,
+      "admin": true
+    },
+    "edit_packages": {
+      "advisor": false,
+      "admin": true
+    },
+    "view_stats": {
+      "advisor": "Limited",
+      "admin": "Full"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "VDL": {
+    "requirements": [
+      "Married or living together",
+      "US/Canada resident or citizen",
+      "Women 25+",
+      "Men 30+",
+      "Families allowed",
+      "Children under 11"
+    ],
+    "includes": [
+      "All inclusive",
+      "Airport transportation",
+      "3 meals included",
+      "Alcoholic drinks",
+      "Non alcoholic drinks",
+      "Premium stays",
+      "3 destinations",
+      "90 min Time Share"
+    ],
+    "validity": [
+      "12 months to reserve",
+      "18 months to travel"
+    ],
+    "destinations": [
+      "Cancun",
+      "Punta Cana",
+      "Puerto Vallarta",
+      "Los Cabos",
+      "Costa Rica",
+      "Bahamas"
+    ]
+  },
+  "HYBRID": {
+    "requirements": [
+      "Women 25+",
+      "US/Canada resident or citizen",
+      "No family requirement"
+    ],
+    "includes": [
+      "1 VDL destination",
+      "2 Mix & Match destinations",
+      "90 min presentation"
+    ],
+    "validity": [
+      "12 months reserve",
+      "18 months travel"
+    ],
+    "destinations": [
+      "Cancun",
+      "Las Vegas",
+      "Orlando"
+    ]
+  },
+  "MIX & MATCH": {
+    "requirements": [
+      "18+",
+      "Can travel with 21+ adult",
+      "No residency required",
+      "No Time Share"
+    ],
+    "includes": [
+      "Open 4/3",
+      "Cruise 5/4",
+      "Cabin",
+      "Snacks",
+      "Attractions",
+      "2 destinations"
+    ],
+    "validity": [
+      "12 months first reservation",
+      "12 additional months second reservation"
+    ],
+    "destinations": [
+      "USA",
+      "Canada",
+      "Bahamas",
+      "Mexico"
+    ]
+  }
+}

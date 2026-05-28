@@ -1,0 +1,92 @@
+{
+  "hoteles": {
+    "Orlando": [
+      "Avanti",
+      "Buena Vista Suites"
+    ],
+    "Las Vegas": [
+      "Tuscany Suites"
+    ],
+    "Cancún": [
+      "Oasis Palm Lite",
+      "Villa del Palmar"
+    ],
+    "Punta Cana": [
+      "Ancora"
+    ],
+    "Puerto Vallarta": [
+      "Crown Paradise",
+      "Krystal Vallarta"
+    ],
+    "Los Cabos": [
+      "Riu Santa Fe",
+      "Marina Fiesta"
+    ],
+    "Costa Rica": [
+      "Fiesta Resort",
+      "Occidental Papagayo"
+    ]
+  },
+  "cruises": {
+    "5/4": [
+      {
+        "departure": "Miami (FL)",
+        "route": "Key West + Cozumel"
+      },
+      {
+        "departure": "Fort Lauderdale (FL)",
+        "route": "Key West + Cozumel"
+      },
+      {
+        "departure": "Port Canaveral (FL)",
+        "route": "Bahamas + Nassau"
+      },
+      {
+        "departure": "Jacksonville (FL)",
+        "route": "Bahamas + Nassau"
+      },
+      {
+        "departure": "Tampa (FL)",
+        "route": "Cozumel"
+      },
+      {
+        "departure": "Galveston (TX)",
+        "route": "Cozumel"
+      },
+      {
+        "departure": "New Orleans (LA)",
+        "route": "Cozumel"
+      },
+      {
+        "departure": "Long Beach (CA)",
+        "route": "Catalina + Ensenada"
+      }
+    ],
+    "6/5": [
+      {
+        "departure": "Charleston (SC)",
+        "route": "Bahamas + Nassau"
+      },
+      {
+        "departure": "Jacksonville (FL)",
+        "route": "Bahamas + Nassau"
+      },
+      {
+        "departure": "Miami (FL)",
+        "route": "Jamaica + Grand Cayman"
+      },
+      {
+        "departure": "Miami (FL)",
+        "route": "Grand Turk + Amber Cove"
+      },
+      {
+        "departure": "Tampa (FL)",
+        "route": "Grand Cayman + Cozumel"
+      },
+      {
+        "departure": "New Orleans (LA)",
+        "route": "Progreso + Cozumel"
+      }
+    ]
+  }
+}
