@@ -281,6 +281,7 @@ def tr(key):
 from datetime import datetime
 
 import streamlit as st
+import pandas as pd
 
 # -----------------------------------
 # ARCHIVOS Y DATOS
@@ -835,14 +836,15 @@ name = st.session_state.name
 admin_menu_keys = [
     "dashboard",
     "users",
-    "clients",
+    "registered_clients",
+    "new_client",
     "sales",
     "packages",
     "commissions",
-    "statistics",
+    "destinations_cruises",
     "sales_history",
     "package_qualification",
-    "calificaciones",
+    
     "followups",
     "my_profile",
 ]
@@ -854,7 +856,7 @@ advisor_menu_keys = [
     "registered_clients",
     "destinations_cruises",
     "package_qualification",
-    "calificaciones",
+    
     "my_commissions",
     "my_statistics",
     "followups",
@@ -1497,7 +1499,7 @@ def statistics_page():
         st.bar_chart(states)
     if package_clients:
         st.subheader("Clients by package")
-        st.pie_chart(package_clients)
+        st.pie_chart(pd.Series(package_clients))
     if monthly_clients:
         st.subheader("Monthly growth")
         st.line_chart(monthly_clients)
