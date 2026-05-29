@@ -1644,6 +1644,12 @@ def registered_clients_page():
                 save_clients(clients)
                 st.success("Cliente actualizado.")
                 st.rerun()
+
+            if st.button("Eliminar cliente"):
+                clients.remove(client)
+                save_clients(clients)
+                st.success("Cliente eliminado.")
+                st.rerun()
     else:
         st.info("No tienes clientes registrados aún.")
 
